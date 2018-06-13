@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--The following meta tag allows your website to display any Unicode characters-->
+    <meta charset="UTF-8">
+    <!--Make sure you specify the viewport as shown below!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--The below will display the author name(s)-->
+    <meta name="author" content="Calvin Simran Rai">
+    <!--This is the description of the web page-->
+    <meta name="description" content="A simple pixel art maker app!">
+    <!--The <title> tag displayes the document's title (that shows up on browser tabs)-->
+    <title>Pixel Art Maker</title>
+    <!--Link to stylesheet-->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <!--The body encapsulates all of the HTML that will be shown on the webpage-->
+  <body>
+
+    <div id="main-content">
+      <div class="upper-background">
+        <div class="upper-container">
+          <div class="image-container">
+            <img src="src/logo.png" alt="Pixel art maker logo">
+          </div>
+        </div>
+      </div>
+      <div class="lower-background">
+        <div class="lower-container">
+          <div class="outer-canvas">
+
+            <h2>Choose Grid Size</h2>
+            <form id="sizePicker">
+                Grid Height:
+                <input type="number" id="inputHeight" name="height" min="1" value="1"> Grid Width:
+                <input type="number" id="inputWidth" name="width" min="1" value="1">
+                <input type="submit">
+            </form>
+
+            <h2>Pick A Color</h2>
+            <div class="color-picker-div">
+              <input type="color" id="colorPicker">
+            </div>
+
+
+            <h2>Design Canvas</h2>
+            <table id="pixelCanvas"></table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <!--The <script> tag allows you to attach a JS script-->
+    <script src="myScript.js"></script>
+  </body>
+</html>
