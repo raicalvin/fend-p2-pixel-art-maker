@@ -30,7 +30,14 @@ img {
 
 h2 {
   margin-bottom: 25px;
+}
+
+.heading-lower {
   margin-top: 25px;
+}
+
+.outer-canvas {
+  padding: 25px;
 }
 
 form {
@@ -51,8 +58,16 @@ input {
   height: 50px;
 }
 
+#footer > span {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #footer {
   height: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .upper-background {
@@ -76,6 +91,9 @@ input {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .outer-canvas {

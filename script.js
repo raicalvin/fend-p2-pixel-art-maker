@@ -3,6 +3,7 @@ let submitButton = document.getElementsByTagName('submit');
 console.log('The submit button: ' + submitButton);
 let colorButton = document.getElementById('colorPicker');
 let lowerBackground = document.getElementsByClassName('lower-background');
+let documentBody = document.getElementsByTagName('body');
 
 // Store the canvas in a variable
 let canvas = document.getElementById('pixelCanvas');
@@ -39,6 +40,6 @@ function colorSquare(e) {
 function updateBackgroundColor(e) {
   console.log('The button color got pressed...');
   console.log(lowerBackground);
-  lowerBackground[0].style.backgroundColor = colorButton.value;
+  documentBody[0].style.backgroundColor = colorButton.value;
   console.log(`The color is ${lowerBackground[0].bgColor}`);
 }
