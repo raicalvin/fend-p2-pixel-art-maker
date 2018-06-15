@@ -5,11 +5,23 @@
   padding: 0; /*normalize any browser-specific padding*/
 }
 
-div {
-  border-style: solid;
-  border-width: 1px;
-  border-color: green;
-  padding: 5px;
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
 }
 
 img {
@@ -39,6 +51,10 @@ input {
   height: 50px;
 }
 
+#footer {
+  height: 150px;
+}
+
 .upper-background {
   background-image: url("src/color-background.svg");
   background-size: 100%;
@@ -46,7 +62,7 @@ input {
 }
 
 .upper-container {
-  margin-bottom: 150px;
+  margin-bottom: 0px;
 }
 
 .image-container {
@@ -54,6 +70,12 @@ input {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.lower-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .outer-canvas {
