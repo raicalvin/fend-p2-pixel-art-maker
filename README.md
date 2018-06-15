@@ -16,7 +16,7 @@ Include information here regarding who the project was for, which educational pr
 
 Since this application allows users to create pixelated masterpieces, I created a colorful pixel background and the pixel logo using colored squares. The background of the app changes to the current color the user selected from the color input.
 
-![](screenshots/pic1.png)
+![](screenshots/pic6.png)
 
 ## Authors
 
